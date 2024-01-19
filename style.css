@@ -9,12 +9,13 @@
 
 .card-container {
     padding: 1%;
-    border: solid 2px red;
     display: inline-block;
     overflow-y: scroll;
     gap: 20px;
     height: 900px;
     margin-right: 65%;
+    background: rgba(10, 7, 16, 0.826);
+    border-radius: 2em;
 
     /* affecting scroll for firefox*/
     scrollbar-width: thin;
@@ -28,7 +29,6 @@ img {
 }
 
 .card {
-    border: 2px solid blue;
     padding: 4em;
     width: 340px;
     height: 512px;
@@ -57,8 +57,16 @@ header {
 /* Scroll for Chrome and safari*/
 
 /* WebKit browsers (Chrome and Safari) */
-.card-container::-webkit-scrollbar-thumb {
-    background-color: red;
-    width: 20px;
+.card-container::-webkit-scrollbar {
+    width: 25px;
 }
 
+.card-container::-webkit-scrollbar-track {
+    border-radius: 20px;
+    background: rgba(10, 7, 16, 0.826);
+}
+
+.card-container::-webkit-scrollbar-thumb {
+    background:rgba(83, 83, 83, 0.582); 
+    border-radius: 20px;
+}
