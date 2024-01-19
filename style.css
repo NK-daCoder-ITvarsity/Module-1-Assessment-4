@@ -37,6 +37,8 @@ img {
     /*creating an illustion of a gap between cards*/
     margin-top: 20px;
     margin-right: 50px;
+
+    transition: width 0.5s, height 0.5s;
 }
 
 @font-face {
@@ -69,4 +71,12 @@ header {
 .card-container::-webkit-scrollbar-thumb {
     background:rgba(83, 83, 83, 0.582); 
     border-radius: 20px;
+}
+
+/*When hovering over the card*/
+
+.card:hover {
+    width: 500px;
+    height: 600px;
+    background: radial-gradient(blue, rgb(0, 0, 66));
 }
