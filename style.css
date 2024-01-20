@@ -3,17 +3,25 @@
     padding: 0;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+
 .cover-page {
     background-color: rgba(6, 5, 13, 0.939);
+    padding: 1%;
 }
 
 .card-container {
-    padding: 2%;
+    padding: 1em;
     display: grid;
     grid-auto-flow: column;
     gap: 20px;
-    height: 1005px;
-    width: 100%;
+    height: 100%;
+    width: 96%;
     background: rgba(10, 7, 16, 0.826);
     border-radius: 2em;
     scrollbar-width: thin;
@@ -28,15 +36,22 @@ img {
 }
 
 .card {
-    padding: 4em;
-    width: 500px;
-    height: 800px;
+    padding: 1em;
+    width: 150px;
+    height: 300px;
     background-color: rgb(26, 25, 29);
     border-radius: 10%;
     margin-top: 20px;
     margin-right: 50px;
     transition: width 0.5s, height 0.5s;
     position: relative;
+
+    perspective: 2500px;
+}
+
+.card:hover {
+    width: 170px; height: 325px;
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
 }
 
 @font-face {
@@ -48,17 +63,12 @@ header {
     font-family: medieval-fantasy;
     color: white;
     padding: 30px;
-    font-size: 10rem;
+    font-size: 2rem;
     font-weight: bold;
     letter-spacing: .1em;
     text-align: center;
 }
 
-.card:hover {
-    width: 500px;
-    height: 700px;
-    background: radial-gradient(blue, rgb(0, 0, 66));
-}
 
 /* Styling for the second container */
 .second-container {
@@ -72,30 +82,32 @@ header {
 
 main {
     background-color: rgba(6, 5, 13, 0.939);
+    overflow-y: none;
+    overflow-x: none;
 }
 
 .table {
     border: 2px solid red;
     display: flex;
     justify-content: center;
-    padding: 6%;
+    padding: 1%;
+    width: 60%;
 }
 
 table {
     width: 100%;
-    height: 50%;
     color: white;
     padding: 30px;
     border-collapse: collapse;
-    font-size: 100px;
+    font-size: 2em;
 }
 
 .border-left {
-    border-top-left-radius: 50px;
+    border-top-left-radius: .4em;
 }
 
 .border-right {
-    border-top-right-radius: 50px;
+    border-top-right-radius: .4em;
 }
 
 th {
@@ -112,12 +124,14 @@ th, td, tr {
     border-bottom: solid 2px rgba(94, 94, 94, 0.826);
     padding: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: width 1s, height 1s
 }
 
 tr:nth-child(even) {
     background-color: rgb(26, 21, 21);
 }
 
-tr:hover {
+tbody > tr:hover {
     background: rgba(33, 0, 246, 0.939);
+    font-size: 1.5em;
 }
