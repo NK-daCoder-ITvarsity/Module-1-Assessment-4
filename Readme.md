@@ -19,8 +19,9 @@ Welcome to the Awesome Movie Website! This simple yet engaging website showcases
 
 ## >> Getting started
 
-- Click on this link to go directly to the webite: 
-- Or if feelin a bit private you can clone the repo to your local machine using this comand: 
+- link to website: https://nk-dacoder-itvarsity.github.io/Module-1-Assessment-4/
+
+- Or if feeling a bit private you can clone the repo to your local machine using this comand: 
 ```git clone https://github.com/NK-daCoder-ITvarsity/Module-1-Assessment-4.git ```
 
 ## >> Usage
@@ -47,7 +48,7 @@ If you'd like to contribute to the Awesome Movie Website, follow these steps:
 
 ## >> Liscense
 
-Feel free to use and modify the code for your own projects.
+This project was made for educational purposes.
 
 
 
