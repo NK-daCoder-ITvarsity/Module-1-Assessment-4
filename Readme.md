@@ -17,7 +17,7 @@ Welcome to the Awesome Movie Website! This simple yet engaging website showcases
 - [x] Interactive movie cards: Hover over the movie cards to reveal additional images.
 - [x] Dynamic movie table: Hover over the table to get a glimpse of movie posters.
 
-## >> Getting starrted
+## >> Getting started
 
 - Click on this link to go directly to the webite: 
 - Or if feelin a bit private you can clone the repo to your local machine using this comand: 
