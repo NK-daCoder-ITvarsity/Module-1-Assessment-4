@@ -11,16 +11,43 @@ Welcome to the Awesome Movie Website! This simple yet engaging website showcases
 - Contributing
 - liscense
 
-## Features
+## >> Features
 
 - [x] A desktop site
 - [x] Interactive movie cards: Hover over the movie cards to reveal additional images.
 - [x] Dynamic movie table: Hover over the table to get a glimpse of movie posters.
 
-## Getting starrted
+## >> Getting starrted
 
-Click on this link to go directly to the webite: 
-Or if feelin a bit private you can clone the repo to your local machine using this comand: ```git clone https://github.com/NK-daCoder-ITvarsity/Module-1-Assessment-4.git ```
+- Click on this link to go directly to the webite: 
+- Or if feelin a bit private you can clone the repo to your local machine using this comand: 
+```git clone https://github.com/NK-daCoder-ITvarsity/Module-1-Assessment-4.git ```
+
+## >> Usage
+
+- Within the site below the cards there is a horizontal scroll bar that enables you to view the cards other cards of the container.
+- Hover over the cards to view its contents
+- Scroll down to reveal the table showing the first 25 best grossing movies of all time.
+- Hover over the table to view its related posters
+
+## >> Tchnologies used
+
+- Html 5
+- Css 3
+
+## >> Contributing
+
+If you'd like to contribute to the Awesome Movie Website, follow these steps:
+
+``` 1. Fork the repository.```
+``` 2. Create a new branch for your feature: git checkout -b feature-name.``` 
+``` 3. Make your changes and commit them: git commit -m 'Add some feature'.```
+``` 4. Push to the branch: git push origin feature-name.```
+``` 5. Submit a pull request.```
+
+## >> Liscense
+
+Feel free to use and modify the code for your own projects.
 
 
 
