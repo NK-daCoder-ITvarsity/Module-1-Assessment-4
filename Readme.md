@@ -30,7 +30,7 @@ Welcome to the Awesome Movie Website! This simple yet engaging website showcases
 - Scroll down to reveal the table showing the first 25 best grossing movies of all time.
 - Hover over the table to view its related posters
 
-## >> Tchnologies used
+## >> Technologies used
 
 - Html 5
 - Css 3
